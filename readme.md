@@ -31,32 +31,19 @@ skill-copy/
 Instala direto do repositório no branch `main`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devfraga/skill-copy/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devfraga/skill-copy/main/install.sh -o install.sh
+less install.sh
+bash install.sh
 ```
 
-### Opcao 2: Uma linha versionada por tag (recomendada para estabilidade)
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/devfraga/skill-copy/main/install.sh | RELEASE_REF=v1.0.0 bash
-```
-
-Use `RELEASE_REF` com tag (`v1.0.0`, `v1.0.1`, etc.) para evitar que mudancas
-futuras no `main` quebrem instalacoes antigas.
-
-### Opcao 3: Instalacao auditavel (sem pipe para bash)
+### Opcao 2:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/devfraga/skill-copy/main/install.sh -o install.sh
 bash install.sh
 ```
 
-Para instalar uma versao especifica baixando localmente:
-
-```bash
-RELEASE_REF=v1.0.0 bash install.sh
-```
-
-### Opcao 4: Script local (recomendado para desenvolvimento)
+### Opcao 3: Script local (recomendado para desenvolvimento)
 
 No terminal, dentro da pasta do projeto:
 
