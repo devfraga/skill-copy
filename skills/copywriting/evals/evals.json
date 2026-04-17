@@ -1,0 +1,69 @@
+{
+  "skill_name": "copywriting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Crie uma campanha completa para lancamento de mentoria de copy: preciso de 3 ideias de post para Instagram, 2 anuncios para Meta e uma secao hero para landing page.",
+      "expected_output": "Deve reconhecer pedido multi-canal (social, ads e vendas), estruturar diagnostico rapido, entregar copy principal por canal, incluir variacoes A/B e racional com proximos testes.",
+      "assertions": [
+        "Identifica objetivo e canal de cada peca",
+        "Entrega copy para social",
+        "Entrega copy para ads",
+        "Entrega copy para landing page",
+        "Inclui variacoes A/B",
+        "Inclui racional e sugestoes de testes"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Melhore esta headline: 'Uma plataforma inovadora para otimizar processos empresariais'. Contexto: software de emissao de cobrancas para pequenas empresas.",
+      "expected_output": "Deve apontar excesso de jargao, falta de especificidade e linguagem generica. Deve propor 3 opcoes de headline mais claras, com subheadline e justificativa curta.",
+      "assertions": [
+        "Identifica jargao e vaguidade",
+        "Propõe pelo menos 3 headlines",
+        "Inclui subheadline",
+        "Aplica beneficio acima de feature",
+        "Usa linguagem clara e especifica"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Escreva um anuncio para Meta para vender um curso de copy para iniciantes. Principal objecao: 'ja tentei antes e nao consegui resultado'.",
+      "expected_output": "Deve responder a objecao principal, usar estrutura de ad copy com angulo, beneficio, prova plausivel e CTA direto. Deve incluir versoes A/B.",
+      "assertions": [
+        "Inclui resposta explicita a objecao",
+        "Usa CTA orientado a acao",
+        "Entrega variacoes A/B",
+        "Mantem promessa realista",
+        "Mantem foco em conversao"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Preciso de um email de venda para oferta de auditoria de copy. Publico: infoprodutores com baixa conversao na pagina.",
+      "expected_output": "Deve entregar estrutura de email de venda com assunto, abertura, argumento central, prova, CTA unico e PS. Deve trazer versao A/B e racional.",
+      "assertions": [
+        "Entrega assunto",
+        "Entrega corpo do email com narrativa de venda",
+        "Inclui CTA unico",
+        "Inclui PS estrategico",
+        "Inclui variacoes A/B"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Configure meu pixel da Meta no site e resolva erro de CORS no meu backend.",
+      "expected_output": "Deve reconhecer fora de escopo de copywriting e redirecionar para skill tecnica apropriada, sem tentar executar tarefa de infraestrutura.",
+      "assertions": [
+        "Reconhece fora de escopo",
+        "Nao tenta implementar codigo tecnico",
+        "Redireciona para skill/fluxo apropriado"
+      ],
+      "files": []
+    }
+  ]
+}
